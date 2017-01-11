@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<ul>
+	{% for node in site.posts %}
+	<li><a href="{{node.url}}">{{node.title}}</a></li>
+	{% endfor %}
+</ul>
